@@ -25,6 +25,37 @@ ul{
     color:#4a4f59;
 }
 
+.dark{
+    padding:15px;
+    background:#4a4f59
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+img{
+   width:320px;
+    height:200px; 
+}
+
+.box{
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+}
+
+.box h2{
+    color:#ffffff;
+}
+
+.box h3{
+    color:#ffffff;
+}
+
+.box p{
+    color:#ffffff;
+}
 
 
 /*Header*/
@@ -140,10 +171,31 @@ header a:hover{
     height:200;
 }
 
+#boxes h3{
+    color:#ffffff;
+}
+#boxes .box p{
+    color:#ffffff;
+}
+
 footer{
     padding:20px;
     margin-top:20px;
     color:#ffffff;
-    background-color:#526e9b;
+    background-color:#0d203f;
     border-top:#0d203f 3px solid;
+}
+
+/*SIdebar*/
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+
+/*Main-col*/
+article#main-col{
+    float:left;
+    width:65%;
+    
 }
