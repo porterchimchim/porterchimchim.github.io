@@ -36,10 +36,6 @@ ul{
     margin-bottom:10px;
 }
 
-img{
-   width:320px;
-    height:200px; 
-}
 
 .box{
     float:left;
@@ -109,8 +105,8 @@ header a:hover{
 /*Shpwcase*/
 #showcase{
     text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    min-height:200px;
-    max-height:200px;
+    min-height:100%;
+    max-height:100%;
     background:url("./images/showcase2.png") no-repeat 0  -300px;
     width:100%;
     text-align:center;
@@ -128,7 +124,7 @@ header a:hover{
 }
 
 #showcase background{
-    background-image:1000px;
+    background-image:1000%;
 }
 
 
@@ -171,8 +167,7 @@ header a:hover{
 }
 
 #boxes .box iframe{
-    width:320px;
-    height:200px;
+    width:100%;
     margin-left: 10px;
     margin-right:10px;
     margin-top:10px;
@@ -180,8 +175,7 @@ header a:hover{
 }
 
 #boxes .box img{
-    width:320px;
-    height:200px;
+    width:100%;
 }
 
 #boxes h3{
@@ -227,9 +221,9 @@ article#main-col{
 
 
 .dropdown {
+    font:16px/1.5 Arial, Helvetica, sans-serif,;
     position:relative;
     display: inline-block;
-    left:1050px;
 }
 
 
@@ -237,13 +231,14 @@ article#main-col{
     display: none;
     position: absolute;
     background-color: #0d203f;
-    min-width: 160px;
+    min-width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 
 .dropdown-content a {
+    font:16px/1.5 Arial, Helvetica, sans-serif,;
     color: #ffffff;
     padding: 12px 16px;
     text-decoration: none;
@@ -251,6 +246,7 @@ article#main-col{
 }
 
 .dropdown-content a:hover {
+    font:16px/1.5 Arial, Helvetica, sans-serif,;
      color:#d3e4ff;
     font-weight:bold;
 }
@@ -274,13 +270,20 @@ article#main-col{
     #newsletter form
     #boxes .box,
     #main-col,
-    #sidebar{
+    #sidebar,
+    #dropdown,
+    #dropbtn,
+    #dropdown-content,
+    footer{
         float:none;
         text-align:center;
         width:100%;
     }
+    
     header{
         padding-bottom:20px;
+    }
+        
     }
     #showcase h1{
         margin-top:40px;
