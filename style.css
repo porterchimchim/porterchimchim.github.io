@@ -108,7 +108,6 @@ header a:hover{
     min-height:100%;
     max-height:100%;
     background:url("./images/showcase2.png") no-repeat 0  -300px;
-    width:100%;
     text-align:center;
     float:center;
     color:#ffffff;
@@ -168,10 +167,7 @@ header a:hover{
 
 #boxes .box iframe{
     width:100%;
-    margin-left: 10px;
-    margin-right:10px;
-    margin-top:10px;
-    margin-bottom:10px;
+   margin:50%;
 }
 
 #boxes .box img{
@@ -273,8 +269,7 @@ article#main-col{
     #sidebar,
     #dropdown,
     #dropbtn,
-    #dropdown-content,
-    footer{
+    #dropdown-content{
         float:none;
         text-align:center;
         width:100%;
