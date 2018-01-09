@@ -184,8 +184,8 @@ header a:hover{
 
 /*footer*/
 footer{
-    padding:20px;
-    margin-top:85%;
+    padding:5px;
+    margin-top:20%;
     color:#ffffff;
     background-color:#0d203f;
     border-top:#0d203f 3px solid;
@@ -207,17 +207,17 @@ article#main-col{
 /*Dropdown*/
 .dropbtn {
     background-color: #0d203f;
-    font:16px/1.5 Arial, Helvetica, sans-serif,;
     padding:0;
     margin:0;
     color:#9b9b9b;
+    font:15px/1.5 Arial, Helvetica, sans-serif,;
     border: none;
     cursor: pointer;
 }
 
 
 .dropdown {
-    font:16px/1.5 Arial, Helvetica, sans-serif,;
+    font:15px/1.5 Arial, Helvetica, sans-serif,;
     position:relative;
     display: inline-block;
 }
@@ -230,6 +230,8 @@ article#main-col{
     min-width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    font:16px/1.5 Arial, Helvetica, sans-serif,;
+
 }
 
 
@@ -243,17 +245,22 @@ article#main-col{
 
 .dropdown-content a:hover {
     font:16px/1.5 Arial, Helvetica, sans-serif,;
-     color:#d3e4ff;
+    color:#d3e4ff;
     font-weight:bold;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    font:16px/1.5 Arial, Helvetica, sans-serif,;
+
 }
 
 
 .dropdown:hover .dropbtn {
-    background-color: #d3e4ff;
+    color:#d3e4ff;
+    font-weight:bold;
+    font:16px/1.5 Arial, Helvetica, sans-serif,;
+
 }
 
 /*Fit to Phones*/
